@@ -1,0 +1,368 @@
+/* Mobile devices (up to 767px) */
+
+@media (max-width: 767px) {
+
+    /* Mobile styles go here */
+    .nav-link {
+        color: rgb(231, 235, 239);
+    }
+
+    #toggleMobileMenu {
+        text-align: center;
+    }
+
+    .background-image {
+        height: 45vh;
+    }
+
+    * {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .navbar-nav {
+        text-transform: uppercase;
+    }
+
+    .nav-link:hover {
+        color: #6DAEDB;
+    }
+
+    .position-relative {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 120px;
+    }
+
+    .btn {
+        background-color: rgb(21, 26, 31);
+        border: white;
+    }
+
+    .btn-action {
+        padding: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;
+        box-shadow: 0 0 20px #070707;
+        border-radius: 10px;
+        background-color: rgb(21, 26, 31);
+        border: 1px solid rgb(233, 233, 233);
+    }
+
+    .btn:hover {
+        background-position: right center;
+        background-color: #0053cf;
+        border: 1px solid #0053cf;
+    }
+
+    .btn-primary {
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: rgb(31, 36, 41);
+        border: white;
+    }
+
+    .btn-primary:hover {
+        background-color: #0b5ed7;
+        border-color: white;
+    }
+
+    p {
+        text-align: left;
+        color: rgb(231, 235, 239);
+    }
+
+    .bold {
+        font-weight: 600;
+    }
+
+    .container-fluid {
+        padding: 2rem;
+    }
+
+    h1 {
+        font-size: 24px;
+        color: white;
+        font-weight: 600;
+    }
+
+    .container-fluid img {
+        height: 200px;
+    }
+
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding-top: 3rem;
+    }
+
+    footer {
+        background-color: rgb(21, 26, 31);
+        padding-top: 24px;
+    }
+
+    footer a,
+    p {
+        color: rgb(220, 220, 220);
+    }
+
+    .card-deck {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .card-deck .card {
+        min-width: 320px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .btn-link,
+    .card-header {
+        background-color: rgb(21, 26, 31);
+    }
+
+    .faq-btn {
+        color: white;
+        font-size: 18px;
+    }
+
+    .faq-btn:hover {
+        color: white;
+    }
+
+    .faq-div {
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+
+    .faq-card {
+        margin-top: 1.5rem;
+    }
+
+    h4 {
+        color: white;
+    }
+
+    .facebook {
+        color: white;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+
+/* Tablets (768px to 991px) */
+
+@media (min-width: 768px) {
+
+    /* Tablet styles go here 
+
+
+ 
+
+ faq - padding: 3rem 4rem 3rem 4rem;*/
+    .nav-link {
+        color: rgb(231, 235, 239);
+    }
+
+    .nav-link:hover {
+        color: #6DAEDB;
+    }
+
+    .position-relative {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 120px;
+    }
+
+    .btn {
+        background-color: rgb(21, 26, 31);
+        border: white;
+    }
+
+    .btn-action {
+        padding: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;
+        box-shadow: 0 0 20px #070707;
+        border-radius: 10px;
+        background-color: rgb(21, 26, 31);
+        border: 1px solid rgb(233, 233, 233);
+    }
+
+    .btn:hover {
+        background-position: right center;
+        background-color: #0053cf;
+        border: 1px solid #0053cf;
+    }
+
+    .btn-primary {
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: rgb(31, 36, 41);
+        border: white;
+    }
+
+    .btn-primary:hover {
+        background-color: #0b5ed7;
+        border-color: white;
+    }
+
+    #toggleMobileMenu {
+        text-align: center;
+    }
+
+    .background-image {
+        height: 60vh;
+    }
+
+    * {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    p {
+        text-align: left;
+        color: white;
+    }
+
+    .navbar-nav {
+        text-transform: uppercase;
+    }
+
+    .nav-link:hover {
+        color: #6DAEDB;
+    }
+
+    h1 {
+        color: white;
+    }
+
+    .container-fluid {
+        padding: 1rem 8rem 3rem 8rem;
+    }
+
+    .bold {
+        font-weight: 600;
+    }
+
+    .container-fluid img {
+        height: 500px;
+    }
+
+    h1 {
+        color: white;
+        font-weight: 600;
+    }
+
+    .container-fluid img {
+        height: 200px;
+    }
+
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding-top: 3rem;
+    }
+
+    footer {
+        background-color: rgb(21, 26, 31);
+        padding-top: 24px;
+    }
+
+    footer a,
+    p {
+        color: rgb(220, 220, 220);
+    }
+
+    .card-deck {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .card-deck .card {
+        min-width: 320px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .btn-link,
+    .card-header {
+        background-color: rgb(21, 26, 31);
+    }
+
+    .faq-btn {
+        color: white;
+        font-size: 18px;
+    }
+
+    .faq-btn:hover {
+        color: white;
+    }
+
+    .faq-div {
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+
+    .faq-card {
+        margin-top: 1.5rem;
+    }
+
+    h4 {
+        color: white;
+    }
+
+    .facebook {
+        color: white;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+
+/* Desktops (992px and above)line-height: 2.5; */
+
+@media (min-width: 992px) {
+
+    /* Desktop styles go here */
+    .background-image {
+        height: 80vh;
+    }
+
+    .container-fluid {
+        padding: 5rem 8rem 5rem 8rem;
+    }
+
+    .container-fluid img {
+        height: 600px;
+    }
+
+    #quoteForm {
+        padding: 1rem 8rem 3rem 8rem;
+        Margin: 2rem 10rem 5rem 10rem;
+        border: rgb(231, 235, 239) solid 2px;
+        border-radius: 5px;
+    }
+}
