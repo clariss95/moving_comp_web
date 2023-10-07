@@ -1,3 +1,4 @@
+<?php include 'sentMail.php';?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +6,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="St. John's Moving Company - Professional local and long-distance moving services in St. John's, Newfoundland. We specialize in residential and commercial moves, appliance and furniture pick up and delivery, Costco runs, and dump runs.">
+    <meta name="keywords" content="St. John's moving company, Newfoundland movers, local movers, long-distance movers, residential moving, commercial moving, moving services, Costco runs, dump runs St. John's">
+    <title>Homepage | English's Enterprise Moving</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
@@ -23,7 +26,7 @@
 
 
             <a class="navbar-brand" href="index.html">
-                <img src="pics/logo2.svg" alt="Logo" width="200" class="d-inline-block  align-text-center">
+                <img src="pics/logo2.svg" alt="English's Enterprise Logo" width="200" class="d-inline-block  align-text-center">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -52,7 +55,7 @@
 
 
 
-    <div class="background-image position-relative" style="background-image: url(pics/background_stjohns.jpg);  background-repeat: no-repeat; background-size: cover;">
+    <div class="background-image position-relative">
 
         <button onclick="goToForm()" type="button" class="btn btn-dark btn-action" id="scrollToFormButton">Get a Free Quote</button>
 
@@ -68,7 +71,7 @@
     </div>
 
     <div class="container-fluid" style=" padding: 0;">
-        <img src="pics/pickuptruck.jpg" class="img-fluid" alt="English's Enterprise Pickup Truck" style="width: 100%;  object-fit: cover;">
+        <img src="pics/pickuptruck.jpg" class="img-fluid" alt="English's Enterprise Pickup Truck Used For Moving" style="width: 100%;  object-fit: cover;">
     </div>
 
     <div class="container-fluid" style=" background-color: rgb(21, 26, 31);">
@@ -80,39 +83,39 @@
 
     <div class="container">
         <h2 id="quoteFormIntro">Get a Free Quote</h2>
-        <form class="row g-3" id="quoteForm">
+        <form class="row g-3" id="quoteForm" method="post">
             <div class="col-md-7">
                 <label for="FullName" class="form-label">Full Name</label>
-                <input type="text" class="form-control" id="FullName">
+                <input type="text" class="form-control" id="FullName" name="name" required>
             </div>
             <div class="returnmessage valid-feedback p-15px-b" data-success="Your message has been received, We will contact you soon."></div>
             <div class="empty_notice invalid-feedback p-15px-b"><span>Please Fill Required Fields</span></div>
             <div class="col-md-7">
                 <label for="inputEmail4" class="form-label">Email</label>
-                <input type="email" class="form-control" id="inputEmail4" required>
+                <input type="email" class="form-control" id="inputEmail4" name="email" required>
 
             </div>
             <div class="col-md-7">
                 <label for="inputPhone" class="form-label">Phone</label>
-                <input type="text" class="form-control" id="inputPhone" placeholder="(709)999-9999">
+                <input type="text" class="form-control" id="inputPhone" name="phone" placeholder="(709)999-9999">
             </div>
 
 
             <div class="mb-2">
                 <label for="Textarea1" class="form-label">Your message</label>
-                <textarea class="form-control" id="Textarea1" rows="5" placeholder="Describe what help you are looking for." required></textarea>
+                <textarea class="form-control" id="Textarea1" rows="5" name="message" placeholder="Describe what help you are looking for." required></textarea>
             </div>
 
             <div class="col-12">
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <input class="form-check-input" type="checkbox" id="gridCheck" name="preferPhoneCall">
                     <label class="form-check-label" for="gridCheck">
                         I prefer to receive a phone call over an email.
                     </label>
                 </div>
             </div>
             <div class="d-grid gap-2 col-2 mx-auto">
-                <button type="submit" class="btn btn-primary" style="margin: 0 0 1rem 0;">Submit</button>
+                <button type="submit" class="btn btn-primary" name="submit" style="margin: 0 0 1rem 0;">Submit</button>
             </div>
 
 

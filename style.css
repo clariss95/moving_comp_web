@@ -11,7 +11,11 @@
         text-align: center;
     }
 
+    /* Default background image for smaller screens */
     .background-image {
+        background-image: url('pics/quidividi.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
         height: 45vh;
     }
 
@@ -166,12 +170,17 @@
 
 @media (min-width: 768px) {
 
-    /* Tablet styles go here 
+    /* Tablet styles go here */
+    .background-image {
+        background-image: url('pics/quidividi.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 45vh;
+    }
 
+    /* faq - padding: 3rem 4rem 3rem 4rem;
 
- 
-
- faq - padding: 3rem 4rem 3rem 4rem;*/
+    */
     .nav-link {
         color: rgb(231, 235, 239);
     }
@@ -348,6 +357,9 @@
 
     /* Desktop styles go here */
     .background-image {
+        background-image: url('pics/background_stjohns.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
         height: 80vh;
     }
 
