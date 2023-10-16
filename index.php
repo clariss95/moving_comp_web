@@ -64,8 +64,8 @@
 
     <div class="container-fluid" style=" background-color: rgb(21, 26, 31); ">
         <h1 class="display-4">Moving Made Easier</h1>
-        <p class="fs-5" style="padding-top:0.5rem;">We are a small but mighty business, located in St. John's, Newdfoundland. English's Enterprise is run by a husband and wife duo, specializing in deliveries, monthly moves, and dump runs.</p>
-        <p class="fs-5" style="padding-top:0.5rem;">Armed with our pickup truck, we are here to make your life easier and lighten your load.</p>
+        <p class="fs-5" style="padding-top:0.5rem;">We are a small but mighty business, located in St. John's, Newfoundland. English's Enterprise is run by a husband and wife duo, specializing in deliveries, monthly moves, and dump runs.</p>
+        <p class="fs-5" style="padding-top:0.5rem;">Armed with our pickup truck (and trailer), we are here to make your life easier and lighten your load.</p>
 
 
     </div>

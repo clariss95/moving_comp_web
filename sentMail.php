@@ -4,7 +4,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', '1');
 
 if(isset($_POST['submit'])) {
-$mailto = "klara.steflova@gmail.com";
+$mailto = "josh_english111@hotmail.com";
 $name = $_POST['name'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];

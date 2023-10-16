@@ -1,168 +1,186 @@
 /* Mobile devices (up to 767px) */
 
-@media (max-width: 767px) {
 
-    /* Mobile styles go here */
-    .nav-link {
-        color: rgb(231, 235, 239);
-    }
+/* Mobile styles go here */
 
-    #toggleMobileMenu {
-        text-align: center;
-    }
+.nav-link {
+    color: rgb(231, 235, 239);
+}
 
-    /* Default background image for smaller screens */
-    .background-image {
-        background-image: url('pics/quidividi.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 45vh;
-    }
+#toggleMobileMenu {
+    text-align: center;
+}
 
-    * {
-        font-family: 'Montserrat', sans-serif;
-    }
 
-    .navbar-nav {
-        text-transform: uppercase;
-    }
+/* Default background image for smaller screens */
 
-    .nav-link:hover {
-        color: #6DAEDB;
-    }
+.background-image {
+    background-image: url('pics/quidividi.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+}
 
-    .position-relative {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 120px;
-    }
+* {
+    font-family: 'Montserrat', sans-serif;
+}
 
-    .btn {
-        background-color: rgb(21, 26, 31);
-        border: white;
-    }
+.navbar-nav {
+    text-transform: uppercase;
+}
 
-    .btn-action {
-        padding: 30px;
-        text-align: center;
-        text-transform: uppercase;
-        transition: 0.5s;
-        background-size: 200% auto;
-        color: white;
-        box-shadow: 0 0 20px #070707;
-        border-radius: 10px;
-        background-color: rgb(21, 26, 31);
-        border: 1px solid rgb(233, 233, 233);
-    }
+.nav-link:hover {
+    color: #6DAEDB;
+}
 
-    .btn:hover {
-        background-position: right center;
-        background-color: #0053cf;
-        border: 1px solid #0053cf;
-    }
+.position-relative {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
 
-    .btn-primary {
-        padding: 10px;
-        margin: 10px;
-        text-align: center;
-        text-transform: uppercase;
-        background-color: rgb(31, 36, 41);
-        border: white;
-    }
+.btn {
+    background-color: rgb(21, 26, 31);
+    border: white;
+}
 
-    .btn-primary:hover {
-        background-color: #0b5ed7;
-        border-color: white;
-    }
+.btn-action {
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #070707;
+    border-radius: 10px;
+    background-color: rgb(21, 26, 31);
+    border: 1px solid rgb(233, 233, 233);
+}
 
-    p {
-        text-align: left;
-        color: rgb(231, 235, 239);
-    }
+.btn:hover {
+    background-position: right center;
+    background-color: #0053cf;
+    border: 1px solid #0053cf;
+}
 
-    .bold {
-        font-weight: 600;
-    }
+.btn-primary {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(31, 36, 41);
+    border: white;
+}
 
-    .container-fluid {
-        padding: 2rem;
-    }
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: white;
+}
 
-    h1 {
-        font-size: 24px;
-        color: white;
-        font-weight: 600;
-    }
+p {
+    text-align: left;
+    color: rgb(231, 235, 239);
+}
 
-    .container-fluid img {
-        height: 200px;
-    }
+.bold {
+    font-weight: 600;
+}
 
-    h2 {
-        text-align: center;
-        text-transform: uppercase;
-        font-weight: 600;
-        padding-top: 3rem;
-    }
+.container-fluid {
+    padding: 2rem;
+}
 
-    footer {
-        background-color: rgb(21, 26, 31);
-        padding-top: 24px;
-    }
+h1 {
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+}
 
-    footer a,
-    p {
-        color: rgb(220, 220, 220);
-    }
+.container-fluid img {
+    height: 200px;
+}
 
-    .card-deck {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 3rem;
+}
 
-    .card-deck .card {
-        min-width: 320px;
-        margin-left: 15px;
-        margin-right: 15px;
-    }
+footer {
+    background-color: rgb(21, 26, 31);
+    padding-top: 24px;
+}
 
-    .btn-link,
-    .card-header {
-        background-color: rgb(21, 26, 31);
-    }
+footer a,
+p {
+    color: rgb(220, 220, 220);
+}
 
-    .faq-btn {
-        color: white;
-        font-size: 18px;
-    }
+.card-deck {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
-    .faq-btn:hover {
-        color: white;
-    }
+.card-deck .card {
+    min-width: 320px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
 
-    .faq-div {
-        padding-top: 2rem;
-        padding-bottom: 4rem;
-    }
+.btn-link,
+.card-header {
+    background-color: rgb(21, 26, 31);
+}
 
-    .faq-card {
-        margin-top: 1.5rem;
-    }
+.faq-btn {
+    color: white;
+    font-size: 18px;
+}
 
-    h4 {
-        color: white;
-    }
+.faq-btn:hover {
+    color: white;
+}
 
-    .facebook {
-        color: white;
-    }
+.faq-div {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
 
-    a {
-        color: white;
-        text-decoration: none;
-    }
+.faq-card {
+    margin-top: 1.5rem;
+}
+
+h4 {
+    color: white;
+}
+
+.facebook {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.faqs-one li {
+    margin-top: 20px;
+    max-width: 80%;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.card-body {
+    max-width: 90%;
+}
+
+.card-body p {
+    color: black;
 }
 
 
@@ -264,7 +282,7 @@
     }
 
     .container-fluid {
-        padding: 1rem 8rem 3rem 8rem;
+        padding: 0rem 8rem 3rem 8rem;
     }
 
     .bold {
